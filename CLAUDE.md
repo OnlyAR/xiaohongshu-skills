@@ -28,10 +28,10 @@ uv run pytest              # 运行测试
 ### 调用方式
 
 ```bash
-python scripts/cli.py check-login
-python scripts/cli.py search-feeds --keyword "关键词"
-python scripts/cli.py publish --title-file t.txt --content-file c.txt --images pic.jpg
-python scripts/publish_pipeline.py --title-file t.txt --content-file c.txt --images URL1
+uv run scripts/cli.py check-login
+uv run scripts/cli.py search-feeds --keyword "关键词"
+uv run scripts/cli.py publish --title-file t.txt --content-file c.txt --images pic.jpg
+uv run scripts/publish_pipeline.py --title-file t.txt --content-file c.txt --images URL1
 ```
 
 ## 代码规范
